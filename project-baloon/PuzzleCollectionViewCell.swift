@@ -6,4 +6,9 @@
 //  Copyright © 2017 Gabriel Freitas. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class PuzzleCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet weak var puzzleLabelNumber: UILabel!
+}

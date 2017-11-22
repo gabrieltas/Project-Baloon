@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class GridValue {
+    
+    var father: Int?
+    var value = [Int]()
+}

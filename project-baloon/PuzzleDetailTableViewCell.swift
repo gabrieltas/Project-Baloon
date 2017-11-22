@@ -6,4 +6,10 @@
 //  Copyright © 2017 Gabriel Freitas. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class PuzzleDetailTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var infoLabel: UILabel!
+}

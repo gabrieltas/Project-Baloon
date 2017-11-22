@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0FF4B01FB4F8DB002E0445 /* PuzzleDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FF4AF1FB4F8DB002E0445 /* PuzzleDetailCollectionViewCell.swift */; };
+		1A44B2C81FB5687900F0787F /* PuzzleDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44B2C71FB5687900F0787F /* PuzzleDetailTableViewCell.swift */; };
+		1A44B2CB1FB5F4AD00F0787F /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44B2CA1FB5F4AD00F0787F /* Puzzle.swift */; };
 		1A49D9431FB3C4380052B7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49D9421FB3C4380052B7EF /* AppDelegate.swift */; };
 		1A49D9451FB3C4380052B7EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49D9441FB3C4380052B7EF /* ViewController.swift */; };
 		1A49D9481FB3C4380052B7EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A49D9461FB3C4380052B7EF /* Main.storyboard */; };
 		1A49D94A1FB3C4380052B7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A49D9491FB3C4380052B7EF /* Assets.xcassets */; };
 		1A49D94D1FB3C4380052B7EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A49D94B1FB3C4380052B7EF /* LaunchScreen.storyboard */; };
 		1A49D9581FB3C4380052B7EF /* project_baloonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49D9571FB3C4380052B7EF /* project_baloonTests.swift */; };
+		1A49D9631FB3C6370052B7EF /* PuzzleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49D9621FB3C6370052B7EF /* PuzzleCollectionViewCell.swift */; };
+		1A49D9651FB4E95C0052B7EF /* PuzzleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49D9641FB4E95C0052B7EF /* PuzzleDetailViewController.swift */; };
+		1AD9DC351FC46C8F0081722D /* GridValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9DC341FC46C8F0081722D /* GridValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0FF4AF1FB4F8DB002E0445 /* PuzzleDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A44B2C71FB5687900F0787F /* PuzzleDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDetailTableViewCell.swift; sourceTree = "<group>"; };
+		1A44B2CA1FB5F4AD00F0787F /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		1A49D93F1FB3C4380052B7EF /* project-baloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-baloon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A49D9421FB3C4380052B7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A49D9441FB3C4380052B7EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		1A49D9531FB3C4380052B7EF /* project-baloonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-baloonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A49D9571FB3C4380052B7EF /* project_baloonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_baloonTests.swift; sourceTree = "<group>"; };
 		1A49D9591FB3C4380052B7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A49D9621FB3C6370052B7EF /* PuzzleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleCollectionViewCell.swift; sourceTree = "<group>"; };
+		1A49D9641FB4E95C0052B7EF /* PuzzleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleDetailViewController.swift; sourceTree = "<group>"; };
+		1AD9DC341FC46C8F0081722D /* GridValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0FF4B21FB4FB44002E0445 /* PuzzleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A49D9441FB3C4380052B7EF /* ViewController.swift */,
+				1A49D9621FB3C6370052B7EF /* PuzzleCollectionViewCell.swift */,
+			);
+			name = PuzzleViewController;
+			sourceTree = "<group>";
+		};
+		1A0FF4B31FB4FB6C002E0445 /* PuzzleDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A0FF4AF1FB4F8DB002E0445 /* PuzzleDetailCollectionViewCell.swift */,
+				1A49D9641FB4E95C0052B7EF /* PuzzleDetailViewController.swift */,
+				1A44B2C71FB5687900F0787F /* PuzzleDetailTableViewCell.swift */,
+			);
+			name = PuzzleDetailViewController;
+			sourceTree = "<group>";
+		};
+		1A44B2C91FB5F49700F0787F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A44B2CA1FB5F4AD00F0787F /* Puzzle.swift */,
+				1AD9DC341FC46C8F0081722D /* GridValue.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1A49D9361FB3C4380052B7EF = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				1A49D9421FB3C4380052B7EF /* AppDelegate.swift */,
-				1A49D9441FB3C4380052B7EF /* ViewController.swift */,
+				1A44B2C91FB5F49700F0787F /* Model */,
+				1A0FF4B21FB4FB44002E0445 /* PuzzleViewController */,
+				1A0FF4B31FB4FB6C002E0445 /* PuzzleDetailViewController */,
 				1A49D9461FB3C4380052B7EF /* Main.storyboard */,
 				1A49D9491FB3C4380052B7EF /* Assets.xcassets */,
 				1A49D94B1FB3C4380052B7EF /* LaunchScreen.storyboard */,
@@ -200,6 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A49D9451FB3C4380052B7EF /* ViewController.swift in Sources */,
+				1A44B2CB1FB5F4AD00F0787F /* Puzzle.swift in Sources */,
+				1A49D9631FB3C6370052B7EF /* PuzzleCollectionViewCell.swift in Sources */,
+				1A44B2C81FB5687900F0787F /* PuzzleDetailTableViewCell.swift in Sources */,
+				1A49D9651FB4E95C0052B7EF /* PuzzleDetailViewController.swift in Sources */,
+				1AD9DC351FC46C8F0081722D /* GridValue.swift in Sources */,
+				1A0FF4B01FB4F8DB002E0445 /* PuzzleDetailCollectionViewCell.swift in Sources */,
 				1A49D9431FB3C4380052B7EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF32H8XYHX;
 				INFOPLIST_FILE = "project-baloon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "defaultCompany.project-baloon";
@@ -368,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF32H8XYHX;
 				INFOPLIST_FILE = "project-baloon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "defaultCompany.project-baloon";
